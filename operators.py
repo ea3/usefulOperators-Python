@@ -40,6 +40,40 @@ print('z' in 'there is a party in my tummy')
 
 print('mykey' in {'mykey':234})
 
+d = {'mykey': 345}
+print(345 in d.values())
+
+mylist = [10,20,30,40,50,60]
+print(min(mylist))
+print(max(mylist))
+
+from random import shuffle
+mylist5 = [3,6,1,8,5,9,0]
+shuffle(mylist5)
+print(mylist5)
+shuffle(mylist5)
+print(mylist5)
+
+
+from random import randint
+
+print(randint(0,100))
+
+
+result = input('Enter a number here: ')
+
+print(type(result))
+
+
+
+
+
+
+
+
+
+
+
 
 
 
